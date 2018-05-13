@@ -43,19 +43,19 @@ for (var i = 0; i < 0x1000; i++) {
   }
 
   var char = String.fromCharCode(i);
-  assert.equal(trimmest(char), trim(char));
-  assert.equal(trimmest.trimStart(char), trimStart(char));
-  assert.equal(trimmest.trimEnd(char), trimEnd(char));
+  assert.equal(trimmest(char), trim(char), i);
+  assert.equal(trimmest.trimStart(char), trimStart(char), i);
+  assert.equal(trimmest.trimEnd(char), trimEnd(char), i);
 
   var string = char + 'test' + char;
-  assert.equal(trimmest(string), trim(string));
-  assert.equal(trimmest.trimStart(string), trimStart(string));
-  assert.equal(trimmest.trimEnd(string), trimEnd(string));
+  assert.equal(trimmest(string), trim(string), i);
+  assert.equal(trimmest.trimStart(string), trimStart(string), i);
+  assert.equal(trimmest.trimEnd(string), trimEnd(string), i);
 }
 
 
 // Time for benchmarks
-trimSuite('test');
+// trimSuite('test');
 trimSuite(' test');
 trimSuite('test ');
 trimSuite(' test ');

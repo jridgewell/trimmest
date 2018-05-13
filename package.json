@@ -1,0 +1,24 @@
+{
+  "name": "trimmest",
+  "version": "0.0.1",
+  "description": "Trims leading and trailing whitespace",
+  "license": "MIT",
+  "keywords": [
+    "trim",
+    "whitespace"
+  ],
+  "repository": "jridgewell/trimmest",
+  "author": "Justin Ridgewell <justin@ridgewell.name>",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "is-whitespace-code-point": "^1.0.0"
+  },
+  "devDependencies": {
+    "benchmark": "^2.1.4"
+  },
+  "scripts": {
+    "test": "node ./test.js"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "trimmest",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Trims leading and trailing whitespace",
   "license": "MIT",
   "keywords": [

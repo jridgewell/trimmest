@@ -13,7 +13,7 @@
     "index.js"
   ],
   "dependencies": {
-    "is-whitespace-code-point": "^1.0.0"
+    "is-whitespace-code-point": "1.0.1"
   },
   "devDependencies": {
     "benchmark": "^2.1.4"
